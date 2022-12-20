@@ -1,0 +1,19 @@
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 1rem 0;
+}
+.product-list img{
+    width: 15rem;
+    height: 15rem;
+}

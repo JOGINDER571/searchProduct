@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.search-box{
+    padding: 25px;
+    width: 50%;
+}
+.search-box input{
+    width: 90%;
+    height: 30px;
+    border: 2px solid cornflowerblue;
+    /* padding-left: 1.5rem; */
+    outline: none;
+    border-radius: 2rem;
+    padding: .6rem 1.5rem;
+}
+.search-box input:hover{
+    /* border: 3px solid cyan; */
+    transition: all .7s ;
+    width: 100%;
+}

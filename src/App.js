@@ -1,20 +1,19 @@
-import HomePage from "./components/HomePage";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "./components/Login";
-import Signup from './components/Signup';
-import Navbar from "./components/Navbar";
+
+import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import {Route,Routes} from "react-router-dom";
+import Cart from './components/Cart';
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
+      <div className="App">
+        <Header/>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          
+          <Route path='/' element={<Main/>}/>
+          <Route path='/cart' element={<Cart/>}/>
         </Routes>
-      </BrowserRouter>
+      </div>
     </>
   );
 }

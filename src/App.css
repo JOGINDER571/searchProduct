@@ -1,0 +1,21 @@
+body{
+    /* background-color: blue; */
+    width: 100%;
+    /* margin: 1rem 3rem; */
+}
+
+.header{
+    background-color: rgb(21, 167, 26);
+    padding: 2rem 1rem;
+}
+.cart{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart img{
+    width: 2rem;
+    height: 2rem;
+}
+.cart span{
+    height: 2rem;
+}

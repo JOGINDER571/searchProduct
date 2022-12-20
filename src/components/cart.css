@@ -1,0 +1,31 @@
+.cart-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-compo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-compo table{
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: .6rem;
+    border-color: gray;
+    flex: 65%;
+}.cart-compo table td{
+    border: 1px solid rgb(36, 154, 184);
+    padding: 1rem;
+}
+.price-details{
+    margin-top: 2rem;
+}
+.adjust-price{
+    display: flex;
+    justify-content: space-between;
+}
